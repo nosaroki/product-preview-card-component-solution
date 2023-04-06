@@ -1,0 +1,96 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+/* CONTENT */
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+
+/* IMG */
+img{
+    height: 53.6%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+/* PERFUME DESCRIPTION */
+
+.product_description{
+    padding: 1em;
+    background-color: hsl(0, 0%, 100%);
+    height: 50%;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product_type{
+    font-family: Montserrat;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+
+.product_name{
+    color: hsl(212, 21%, 14%);
+    font-weight: 700;
+    font-family: Fraunces;
+}
+
+.product_text{
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
+.prices{
+    display: flex;
+}
+
+.product_newPrice{
+    color: #3D8167;
+    font-family: Fraunces;
+    font-size: 24px;
+    margin-right: 2em;
+}
+
+.product_oldPrice{
+    color: hsl(212, 21%, 14%);
+    text-decoration:line-through;
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat;
+    padding-top: 12px;
+}
+
+button{
+    background-color: #3D8167;
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    padding: 1em;
+    border-color: #3D8167;
+    font-family: Montserrat;
+}
+
+button > svg{
+    padding-right: 10px;
+} 
+
+/* FOOTER */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    font-family: Montserrat;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
