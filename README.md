@@ -4,7 +4,7 @@
 
 Here is a solution to the Product Preview Card Component Challenge from Frontend Mentor.
 
-## Challenge
+## The Challenge
 
 Users should be able to :
 - View the optimal layout depending on their device's screen size

@@ -22,16 +22,18 @@
 
   <main>
     <article>
-      <img src="images/image-product-desktop.jpg"
-        alt="Gabrielle Essence Eau de Parfum's bottle, down on a table with green leaves around it"
-        media="(min-width: 375px)">
-
+      <picture>
+        <!-- <source srcset="images/image-product-desktop.jpg" media="(min-width: 600px)"> -->
+        <img srcset="images/image-product-desktop.jpg 600w, images/image-product-mobile.jpg 686w"
+          sizes="(max-width: 600px) 686px, 300px" src="images/image-product-desktop.jpg"
+          alt="Gabrielle Essence Eau de Parfum's bottle, down on a table with green leaves around it">
+      </picture>
       <div class="product_description">
         <p class="product_type">P E R F U M E</p>
-        <h1 class="product_name">Gabrielle </br>Essence Eau</br> De Parfum</h1>
+        <h1 class="product_name">Gabrielle Essence Eau De Parfum</h1>
 
-        <p class="product_text">A floral, solar and voluptuous interpretation composed by </br>Olivier Polge,
-          Perfumer-Creator </br> for the House of CHANEL.</p>
+        <p class="product_text">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.</p>
         <div class="prices">
           <p class="product_newPrice">$149.99</p>
           <p class="product_oldPrice">$169.99</p>
@@ -51,7 +53,7 @@
   <footer>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://github.com/nosaroki">Nnéna OSAROKIO</a>.
+      Coded by <a href="https://github.com/nosaroki">Nnéna</a>.
     </div>
   </footer>
 
